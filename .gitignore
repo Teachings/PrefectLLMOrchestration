@@ -1,0 +1,48 @@
+# Byte-compiled / optimized python files
+*.py[cod]
+
+# Distribution / packaging
+*.egg
+*.egg-info
+dist
+build
+
+# Compiled binary files
+*.so
+*.pyc
+*.pyo
+*.dylib
+*.dll
+
+# IPython notebook
+*.ipynb
+
+# Jupyter cache
+.ipynb_checkpoints
+
+# Thumbnails
+.thumbnails
+
+# Misc
+.env
+.venv
+env/
+ENV/
+venv/
+VENV/
+.env.local
+.env.development.local
+.env.test
+.env.production
+.env.staging
+.env.development
+logs/*.log
+*.log
+*.sqlite3
+*.db
+*.sqlite
+*.pkl
+*.pickle
+*.swp
+*~
+# *.DS_Store (Mac specific)

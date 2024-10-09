@@ -1,5 +1,5 @@
 prefect
 OpenAI
-sqlalchemy 
+sqlalchemy
+psycopg2
 psycopg2-binary
-prefect-email

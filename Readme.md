@@ -65,7 +65,6 @@ prefect
 OpenAI
 sqlalchemy 
 psycopg2-binary
-prefect-email
 ```
 
 ### **2. Set Up PostgreSQL and Adminer**
@@ -87,6 +86,10 @@ python create_table.py
 ```
 
 ### **4. Run the Prefect Flow**
+
+```bash
+export PREFECT_API_URL="http://localhost:4200/api"
+```
 
 Run the `llm_flow.py` script to start the Prefect flow, which queries the LLM model and stores the result in PostgreSQL.
 

@@ -19,6 +19,7 @@ h_events_persistence/
 ├── models.py                 # SQLAlchemy model and database connection setup
 ├── hooks.py                  # Prefect hooks for handling flow completion and failure
 ├── llm_flow.py               # Prefect flow to query LLM and store results
+├── trigger_flow.py           # trigger flows using API
 └── README.md                 # Instructions on how to set up and run the project
 ```
 
